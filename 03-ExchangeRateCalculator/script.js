@@ -29,7 +29,7 @@ const calculate = () => {
 //event listeners
 cmbxCurrencyElementOne.addEventListener('change', calculate);
 cmbxCurrencyElementTwo.addEventListener('change', calculate);
-//input will fireup , if change using keyboard or using triangle
+//'input'event will fireup , if change using keyboard or using triangle
 txtAmontOne.addEventListener('input', calculate);
 txtAmontTwo.addEventListener('input', calculate);
 
